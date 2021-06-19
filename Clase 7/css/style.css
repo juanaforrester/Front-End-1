@@ -1,6 +1,40 @@
 .barrasup{
     background-color: black;
+    color: white;
+    text-decoration:none;
+
+}
+.barrasup a{
+    text-decoration:none;
+    color:white; /* PORQUE ME LO TOMA ACA SI YO LO ESCRIBO EN EL PADRE??*/
+
 }
 .menuppal{
     background-color: orange;
+}
+.banner
+{
+    background-image:url("../img/bowl.jpg");
+    background-size: 1025px, 409px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+}
+.titulo{
+    color: #3C2313;
+    
+}
+.titulo a{
+    text-decoration:none;
+}
+.productos{
+    color:#3C2313;
+
+}
+.precio{
+    color:#F0A83E;
 }

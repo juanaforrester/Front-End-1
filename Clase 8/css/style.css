@@ -12,19 +12,24 @@ h1 {
     font-weight: bold;
     font-size: 35px;
     line-height: 84.69%;
-    background: #C4C4C4;
+    background-color: #C4C4C4;
    
-  
+}
+span{
+    font-weight: bold;
+}
     
-h2 {
+h3 {
     font-family: Times New Roman;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 84.69%;
     color: #005677;
-    background: #C4C4C4; 
+    background-color: #C4C4C4; 
+    text-transform: uppercase;
 }
 footer{
+    text-align: center;
     background-color: blue;
 }
