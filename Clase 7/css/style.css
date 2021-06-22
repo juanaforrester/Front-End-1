@@ -12,6 +12,9 @@
 .menuppal{
     background-color: orange;
 }
+.menuppal a{
+    color: white;
+}
 .banner
 {
     background-image:url("../img/bowl.jpg");
@@ -30,6 +33,7 @@ h1{
 }
 .titulo a{
     text-decoration:none;
+    color:#3C2313;
 }
 .productos{
     color:#3C2313;
@@ -37,4 +41,14 @@ h1{
 }
 .precio{
     color:#F0A83E;
+}
+.infoAdicional{
+    background-color: #3C2313;
+    color:white
+}
+footer{
+
+    background-color: orange;
+    text-align: center;
+    color:white;
 }
