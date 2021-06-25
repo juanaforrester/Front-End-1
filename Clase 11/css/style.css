@@ -1,36 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #E5E5E5;;
+    background-color: #E5E5E5;
+    height: 578px;
+    width: 1024px;
 }
 header{
     background-color:#222222;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
+    width: 1024px;
+    height: 100px;
+    justify-content: space-between;
    
 }
 header ul{
     display: flex;
+}
+a{
     color: white;
-    text-transform: none;
+    text-decoration:cd .. none;
 }
 
-cajas{
-    flex: display;
+.cajas {
+    
+    display: flex;
+    justify-content: center;
+    margin:35px 0px;
+
+
 }
 .caja1{
     background-image: url("../img/delivery.jpg");
-    width: auto;
-    height: auto;
+    width: 490px;
+    height: 350px;
+    margin-right: 2.5px;
+    
+    }
+.caja1 span{
+    color: white;
 }
 
 .caja2{
-    width: auto;
-    height: auto;
     background-color: white;
+    width: 491px;
+    height: 350;
+    margin-left: 2.5px;
+}
+.caja2 div{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+    margin-top: 58px;;
+}
+.caja2 div p{
+    position:relative;
+    left:50px;
+}
+h2{
+    color:red;
+    font-weight: bold;
+    position: relative;
+    top:20px;
+    font-size: 26px;
+}
+.caja1 h2{
+    left:20px;
+}
+.caja2 h2{
+    text-align: center;
 }
 footer{
     display: flex;
     background: #222222;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 1024px;
+    /*height: 150px;*/
+    justify-content: space-between;
+    
 }
