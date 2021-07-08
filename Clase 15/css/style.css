@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin:0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0px;
+    padding: 0px;
+    
+}
+.barrasup{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 60px 4px 90px;
+       
+}
+.barrasup .idiomas span {
+    margin-left: 20px;
+}
+
+.barrasup a{
+    text-decoration:none;
+    color:white; /* PORQUE ME LO TOMA ACA SI YO LO ESCRIBO EN EL PADRE??*/
+
+}
+.menuppal{
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 40px 20px 58px;
+    flex-wrap: wrap;
+}
+.menuppal nav ul{
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+.menuppal a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.banner img
+{
+   width: 100%;
+       
+}
+.banner{
+    position:relative;
+    background-image: url(../img/bowl.jpg);
+    height: 400px;
+    background-size: cover;
+}
+.textoBanner{
+    position: absolute;
+    z-index: +1;
+    top:70%;
+    left:30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textoBanner h1{
+    background:white;
+   /* font-size: 30px;*/
+}
+.textoBanner .boton{
+    background-color: orange;
+}
+.titulo{
+    color: #3C2313;
+    
+}
+.titulo a{
+    text-decoration:none;
+    color:#3C2313;
+}
+.productos{
+    color:#3C2313;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.precio{
+    color:#F0A83E;
+}
+.infoAdicional{
+    background-color: #3C2313;
+    color:white
+}
+footer{
+
+    background-color: orange;
+    text-align: center;
+    color:white;
+}
