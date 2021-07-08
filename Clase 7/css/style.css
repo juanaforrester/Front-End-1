@@ -57,6 +57,7 @@ body{
 }
 .textoBanner h1{
     background:white;
+    font-size: 30px;
 }
 .textoBanner .boton{
     background-color: orange;
