@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@300&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header .barrasup{
+    background-color:#1CD1B0;
+    padding: 10px;
+    margin: 0px;;
+   
+}
+header .titulo{
+    background-color:#00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    padding: 28px;
+    color: white;
+    margin: 0px;
+    display: flex;
+
+}
+header div{
+    background-color: #001D2D;
+    color: white;
+    text-align: end;
+    padding: 10px 10px;
+}
+header div a{
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+}
+main{
+    margin: 32px;
+}
+main.ingreso{
+    padding: 200px 308px 250px 311px;
+}
+main.ingreso a{
+    text-align: center;
+    /*no me lo toma*/
+}
+h1{
+    font-size: 4.5rem;
+    font-family:'Inter', sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+input{
+    padding:20px;
+    margin: 10px;
+}
+
+
+
+.caja{
+    display: inline-block;
+    height: 500px;
+    width: 300px; /*le tengo que dar medida relativa*/
+    margin: 32px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px 16px 0px 0px;
+     
+}
+.fondo{
+    height:200px ;
+    width:300px ;
+}
+.caja h3{
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+    
+}
+.caja p{
+    text-align: justify;
+    font-size: 16px;
+    margin: 17px;
+}
+
+.circulo{
+    border-radius: 50%;
+    display:block;
+    margin: -30% auto 0px;
+    height: 50px;
+    width: 50px;
+    
+}
+.corazon{
+    position: relative;
+    bottom: 185px;
+    left: 20px;
+}
+/*BOTONES*/
+button{
+    display: block;
+    background-color: #00669F;
+    color: white;
+    margin:15px auto 30px ;
+    padding: 10px 25px;
+ }
+ button.forms{
+     background-color: #1CD1B0;
+     font-size: 1.5rem;
+     color: black;
+     font-family: 'Karla', sans-serif;
+     border-radius: 23px;
+ }
+ .botones{
+     display: flex;
+
+ }
+ /*FOOTER*/
+ footer{
+    background-color:#00669F;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+ /*@media(max-width:412px)
+ {
+     
+    .caja{
+       
+        height: 30%;
+        width: 300px;
+        margin: 32px;
+        background-color: #F3F3F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 16px 16px 0px 0px;
+       
+         
+    }
+ }
