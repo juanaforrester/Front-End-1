@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <p class="barrasup">20% de descuento en todos los productos!</p>
+        <div class=titulo>
+            <img src="../img/logo 1.png">
+            <h2>Nombre Tienda</h2>
+        </div>
+        <div>
+            <a href="view/contacto.html">Contacto</a>
+            <a href="view/registro.html">Registrarme</a>
+            <a href="view/ingreso.html">Ingresar</a>
+        </div>
+    </header>
+    <main class=super>
+        <h1>Añadí tu super!</h1>
+        <p>Agregá tu personaje favorito completando las opciones</p>
+        
+        <form action="../index.html">
+            <section class="datos1">
+            <div>
+                <label for="nombre">*Nombre</label>
+                <input type="text" name="Nombre" id="nombre">
+            </div>
+            <div>
+            <label>*Especie</label>
+            <select name="especie">
+                <option disabled selected>Especie</option>
+                <option value="unknown">Unknown</option>
+                <option value="volador">Volador</option>
+                <option value="actuatico">Acuatico</option>
+                </select>
+             </div>
+             </section>
+            <section>
+             <div>
+            <label>Fecha</label>
+            <input type="date" name="fecha">
+        </div>
+        <div>
+            <label>Seleccionar Foto</label>
+            <input type="file" name="avatar" accept=".jpg">
+        </div>
+    </section>
+    <section>
+        <div>
+            <textarea name="comentario" placeholder="Description"></textarea>
+        </div>
+        <div>
+        <div>
+            <label>Poderes</label>
+            <input type="checkbox" name="Poderes" value="Volar">
+            <input type="checkbox" name="Poderes" value="Superinteligente">
+            <input type="checkbox" name="Poderes" value="Visita de rayo láser">
+            <input type="checkbox" name="Poderes" value="Billetera gorda">
+        </div>
+        <hr>
+        <div>
+            <label>Tipo de personaje</label>
+            <input type="radio" name="Héroe/Heroina">
+            <input type="radio" name="Villano/Villana">
+        </div>
+    </div>
+    </section>
+        <button type="submit">Añadir</button>
+        </form>
+    </main>
+    <footer>
+         <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer> 
+</body>
+</html>
