@@ -27,13 +27,17 @@ footer{
 
 .caja{
     display: inline-block;
-    height: 30%;
-    width: 300px;
+    height: 500px;
+    width: 300px; /*le tengo que dar medida relativa*/
     margin: 32px;
     background-color: #F3F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 16px 16px 0px 0px;
      
+}
+.fondo{
+    height:200px ;
+    width:300px ;
 }
 .caja h3{
     text-align: center;
@@ -53,6 +57,8 @@ main{
     border-radius: 50%;
     display:block;
     margin: -30% auto 0px;
+    height: 50px;
+    width: 50px;
     
 }
 .corazon{
@@ -67,7 +73,7 @@ button{
     margin:15px auto 30px ;
     padding: 10px 25px;
  }
- @media(max-width:412px)
+ /*@media(max-width:412px)
  {
      
     .caja{
